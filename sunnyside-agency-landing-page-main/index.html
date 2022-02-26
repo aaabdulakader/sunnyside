@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@500;600;700;900&family=Fraunces:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Frontend Mentor | Sunnyside agency landing page</title>
+  </head>
+  <body>
+    <main>
+      <section class="hero">
+        <header>
+          <nav class="nav">
+            <img class="logo" src="images/logo.svg" alt="logo" />
+            <ul class="nav-list">
+              <li class="nav-item">About</li>
+              <li class="nav-item">Services</li>
+              <li class="nav-item">Projects</li>
+              <button class="cta">Contact</button>
+            </ul>
+            <!-- <ion-icon class="menu" name="menu-outline"></ion-icon> -->
+            <img class="menu" src="images/icon-hamburger.svg" alt="menu" />
+
+            <ul class="menu-list hidden">
+              <li class="menu-item">About</li>
+              <li class="menu-item">Services</li>
+              <li class="menu-item">Projects</li>
+              <button class="cta">Contact</button>
+            </ul>
+          </nav>
+        </header>
+        <div class="title"><h1 class="hero-title">We are creatives</h1></div>
+        <img class="arrow" src="images/icon-arrow-down.svg" alt="arrow" />
+      </section>
+      <section class="grid container">
+        <div class="box transform">
+          <h2>Transform your brand</h2>
+          <p>
+            We are a full-service creative agency specializing in helping brands
+            grow fast. Engage your clients through compelling visuals that do
+            most of the marketing for you.
+          </p>
+          <a class="learn" href="#"> Learn More</a>
+        </div>
+
+        <img
+          src="images/desktop/image-transform.jpg"
+          class="egg"
+          alt="egg picture"
+        />
+        <img src="images/desktop/image-stand-out.jpg" alt="cup" />
+        <div class="box stand">
+          <h2>Stand out to the right audience</h2>
+          <p>
+            Using a collaborative formula of designers, researchers,
+            photographers, videographers, and copywriters, we’ll build and
+            extend your brand in digital places.
+          </p>
+          <a class="learn" href="#"> Learn More</a>
+        </div>
+        <div class="graphic">
+          <h3>Graphic Design</h3>
+          <p>
+            Great design makes you memorable. We deliver artwork that
+            underscores your brand message and captures potential clients’
+            attention.
+          </p>
+        </div>
+        <div class="photography">
+          <h3>Photography</h3>
+          <p>
+            Photography Increase your credibility by getting the most stunning,
+            high-quality photos that improve your business image.
+          </p>
+        </div>
+      </section>
+      <section class="testiomonial-section container">
+        <h4 class="t-title">Client testimonials</h4>
+        <div class="testimonials">
+          <div class="t-box">
+            <img
+              src="images/image-emily.jpg"
+              alt="customer image"
+              class="t-img"
+            />
+            <p class="t-p">
+              We put our trust in Sunnyside and they delivered, making sure our
+              needs were met and deadlines were always hit.
+            </p>
+            <div class="name-box">
+              <p class="name">Emily R.</p>
+              <p class="position">Marketing Director</p>
+            </div>
+          </div>
+          <div class="t-box">
+            <img
+              src="images/image-thomas.jpg"
+              alt="customer image"
+              class="t-img"
+            />
+            <p class="t-p">
+              Sunnyside’s enthusiasm coupled with their keen interest in our
+              brand’s success made it a satisfying and enjoyable experience.
+            </p>
+            <div class="name-box">
+              <p class="name">Thomas S.</p>
+              <p class="position">Chief Operating Officer</p>
+            </div>
+          </div>
+          <div class="t-box">
+            <img
+              src="images/image-jennie.jpg"
+              alt="customer image"
+              class="t-img"
+            />
+            <p class="t-p">
+              Incredible end result! Our sales increased over 400% when we
+              worked with Sunnyside. Highly recommended!
+            </p>
+            <div class="name-box">
+              <p class="name">Jennie F.</p>
+              <p class="position">Business Owner</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="gallery">
+        <img
+          src="images/desktop/image-gallery-milkbottles.jpg"
+          alt=""
+          class="gallery-item"
+        /><img
+          src="images/desktop/image-gallery-orange.jpg"
+          alt=""
+          class="gallery-item"
+        /><img
+          src="images/desktop/image-gallery-cone.jpg"
+          alt=""
+          class="gallery-item"
+        /><img
+          src="images/desktop/image-gallery-sugarcubes.jpg"
+          alt=""
+          class="gallery-item"
+        />
+      </section>
+    </main>
+    <footer>
+      <div class="footer-logo">sunnyside</div>
+      <ul class="footer-nav">
+        <li class="footer-item">About</li>
+        <li class="footer-item">Services</li>
+        <li class="footer-item">Projects</li>
+      </ul>
+      <div class="icons">
+        <ion-icon name="logo-facebook"></ion-icon>
+        <ion-icon name="logo-instagram"></ion-icon>
+        <ion-icon name="logo-twitter"></ion-icon>
+        <ion-icon name="logo-pinterest"></ion-icon>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
